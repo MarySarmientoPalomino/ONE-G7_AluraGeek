@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <img src="assets/imagens/coracao.svg" alt="foto de coracoes"/>
+        <h1>AluraGeek</h1>
+    </header>
+
+    <main id="container__produtos">
+        <article>
+            <!-- Titulo -->
+            <h3 id="titulo__produto">Não há produtos!</h3>
+
+            <!-- exibicao de produtos -->
+            <div id="container__card__produto"></div>
+        </article>
+
+        <form id="form_inserir">
+            <h3>Adicionar Produto:</h3>
+            
+            <input type="text" name="nome" id="inome" placeholder="nome..." required>
+
+            <input type="number" name="preco" id="ipreco" placeholder="preço..." required>
+
+            <input type="text" name="imagem" id="iImagem" placeholder="url da imagem..." required>
+
+            <div id="container_buttons">
+                <button id="button_guardar">Guardar</button>
+                <button id="button__limpar">Limpar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <img src="assets/imagens/coracao.svg" alt="foto de coracoes"/>
+            <h1>AluraGeek</h1>
+        </div>
+
+        <p>Desenvolvido por Thomaz Alves</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

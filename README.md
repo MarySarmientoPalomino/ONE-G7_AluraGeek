@@ -1,1 +1,2 @@
-# ONE-G7_AluraGeek
+# AluraGeek
+ Challenge one - AluraGeek
