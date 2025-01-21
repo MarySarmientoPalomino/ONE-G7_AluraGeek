@@ -1,2 +1,2 @@
-# AluraGeek
- Challenge one - AluraGeek
+# Challenge AluraGeek
+ Oracle Next Education G7
